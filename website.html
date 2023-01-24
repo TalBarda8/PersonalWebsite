@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tal Barda's website</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+    <h1>Welcome</h1>
+    <h4>You have arrived to Tal Barda's website, make yourself at home!</h4>
+    <div class="container" id="flexstart">
+        <div class="left"></div>
+        <a href="#aboutme" class="center"><h5><b>About me</b></h5></a>
+        <a href="#education" class="center"><h5><b>Education</b></h5></a>
+        <a href="#employment" class="center"><h5><b>Employment</b></h5></a>
+        <a href="#hobbies" class="center"><h5><b>Hobbies</b></h5></a>
+        <a href="#contactme" class="center"><h5><b>Contact me</b></h5></a>
+        <div class="right"></div>
+    </div>
+
+    <br><br>
+
+    <div class="title">
+        <h3 id="aboutme">About me</h3><br>
+    </div>
+    <div class="aboutme">
+    <img src="./images/family.jpeg" alt="Family picture">
+    <p>My name is Tal Barda, i'm 23 years old and living in Kfar Azar, Ramat gan with my family. I have 2 younger siblings, Shahar and Maya. We also have a dog, named Luka. It is a Malinois (kind of Belgian Shepherd) and 1 and a half years old.</p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="title">
+        <h3 id="education">Education</h3><br>
+    </div>
+    <br>
+    <div class="education">
+        <img src="./images/idc.jpeg" alt="IDC friends picture">
+        <p>When I was younger I studied in elementary school im Ramat Efal, the neighborhood I used to live in. Later on, I went to Blich high school in Ramat Gan and took Physics as my major class. I graduated at June 2016.
+        On September '20 I started first degree in computer science on Reichman University and today I'm a second year student.<br><br>
+        <a href="https://ramatefal.tik-tak.net/" target="_blank" class="schpic"><img id="RESlogo" src="./images/RESlogo.png" alt="Ramat Efal school logo"></a>
+        <a href="https://blich.tik-tak.net/" target="_blank" class="schpic"><img id="blichlogo" src="./images/blich-logo.png" alt="Blich logo"></a>
+        <a href="https://www.idc.ac.il/he/pages/home.aspx" target="_blank" class="schpic"> <img id="RUlogo" src="./images/RUlogo.jfif" alt="Reichman University logo"></a>
+        <br><i>Schools websited's links</i>
+        </p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="title">
+        <h3 id="employment">Employment</h3><br>
+    </div>
+    <div class="employment">
+        <img src="./images/army.jpeg" alt="Army friends picture">
+        <p>When I was in high school, I used to work every year as a guide in a summer day camp in my neighborhood. I worked there every summer from when I was 14 to 18 years old. After the day camp was over in 2016, I spent the months I had before I recruited to the IDF by working at the juice store "Rebar".<br>
+        In December 2016 I recruited to the IDF and served as NBC (nuclear, biologic, chemical) guide in the Home front command. I used to travel between basic training camps and taught recruit soldier this subject. on July 2017, I started officers course and ended it on February 2018, where I got the platoon leader ("Sagam") rank.<br>
+        As an officer in the army I did two roles. In the first year and a half I was a training officer, and I worked on planing the calendar for all of the home front command trainings, starts with Search and rescue brigade, and even cooperation with the police, the fire department and with Israel Prison Service. At my last year in the army I handled preparedness of the local authority to emergency. As well, I worked on characterization of the systems that the authorities are using today at emergency. I finished my military service at August 2020 as First lieutenant ("Segen") and I'm still doing "Miluim" service in the unit I served in my second role as officer.
+        </p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="title">
+        <h3 id="hobbies">Hobbies</h3><br>
+    </div>
+    <div class="hobbies">
+        <img src="./images/ski.jpeg" alt="Family ski picture">
+        <p>Almost every year (with few years of gap thank to covid-19 and my army service) I'm going to ski vecation with my family. I started when I was 5 and until today it's my favorite kind of vacation.
+        </p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="title">
+        <h3 id="contactme">Contact me</h3><br>
+    </div>
+    <div>
+        <p><b>You can send me mail by pressing one of the buttons:</b></p>
+        <a href="mailto:Talbarda8@gmail.com"><button class="btn success">My personal mail</button></a>
+        <a href="mailto:tal.barda@post.idc.ac.il"><button class="btn success">My studies mail</button></a>
+    <br>
+
+        <p><b><u>Social media</u>:</b></p>
+    <a href="https://he-il.facebook.com/tal.barda.1" target="_blank" class="schpic"><img id="FBlogo" src="./images/facebook.png" alt="Facebook logo"></a>
+    <a href="https://www.instagram.com/talbarda_/" target="_blank" class="schpic"><img id="INSlogo" src="./images/instagram.png" alt="Instagram logo"></a>
+    </div>
+
+    <form action="./formsub.html">
+        <p><b>Or you can fill the form below:</b></p>
+        <input name="name" type="text" class="feedback-input" placeholder="Name" minlength="2" />
+        <input name="email" class="feedback-input" placeholder="Email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$" type="email" required/>
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT"/>
+    </form>
+
+
+
+
+    <div class="title">
+        <h3>Time right now:</h3>
+    </div>
+    <div class="title">
+    <main class="main">
+        <div class="clockbox">
+            <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 600 600">
+                <g id="face">
+                    <circle class="circle" cx="300" cy="300" r="253.9"/>
+                    <path class="hour-marks" d="M300.5 94V61M506 300.5h32M300.5 506v33M94 300.5H60M411.3 107.8l7.9-13.8M493 190.2l13-7.4M492.1 411.4l16.5 9.5M411 492.3l8.9 15.3M189 492.3l-9.2 15.9M107.7 411L93 419.5M107.5 189.3l-17.1-9.9M188.1 108.2l-9-15.6"/>
+                    <circle class="mid-circle" cx="300" cy="300" r="16.2"/>
+                </g>
+                <g id="hour">
+                    <path class="hour-arm" d="M300.5 298V142"/>
+                    <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+                </g>
+                <g id="minute">
+                    <path class="minute-arm" d="M300.5 298V67"/>
+                    <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+                </g>
+                <g id="second">
+                    <path class="second-arm" d="M300.5 350V55"/>
+                    <circle class="sizing-box" cx="300" cy="300" r="253.9"/>
+                </g>
+            </svg>
+        </div>
+    </main>
+    </div>
+
+
+
+
+    <script src="./js.js"></script>
+</body>
+
+</html>
